@@ -21,6 +21,11 @@ const Header = () => {
                 </Link>
               </li>
               <li>
+                <Link href="/projects">
+                  <a className="inline-block pt-4 pb-4 pl-4 pr-4 hover:underline">Projects</a>
+                </Link>
+              </li>
+              <li>
                 <Link href="/blog">
                   <a className="inline-block pt-4 pb-4 pl-4 pr-4 hover:underline">Blog</a>
                 </Link>
