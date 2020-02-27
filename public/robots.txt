@@ -1,0 +1,59 @@
+# Google Search Engine Robot
+User-agent: Googlebot
+#Allow: /?_escaped_fragment_
+
+Disallow: /api
+Disallow: /admin
+Disallow: /account
+Disallow: /settings
+Disallow: /oauth
+
+# Yahoo! Search Engine Robot
+User-Agent: Slurp
+#Allow: /?_escaped_fragment_
+
+Disallow: /api
+Disallow: /admin
+Disallow: /account
+Disallow: /settings
+Disallow: /oauth
+
+# Yandex Search Engine Robot
+User-agent: Yandex
+#Allow: /?_escaped_fragment_
+
+Disallow: /api
+Disallow: /admin
+Disallow: /account
+Disallow: /settings
+Disallow: /oauth
+
+# Microsoft Search Engine Robot
+User-Agent: msnbot
+#Allow: /?_escaped_fragment_
+
+Disallow: /api
+Disallow: /admin
+Disallow: /account
+Disallow: /settings
+Disallow: /oauth
+
+# Every bot that might possibly read and respect this file.
+User-agent: *
+
+Disallow: /api
+Disallow: /admin
+Disallow: /account
+Disallow: /settings
+Disallow: /oauth
+
+# WHAT-4882 - Block indexing of links in notification emails. This applies to all bots.
+Disallow: /i/u
+Noindex: /i/u
+
+# Wait 1 second between successive requests. See ONBOARD-2698 for details.
+Crawl-delay: 1
+
+# Independent of user agent. Links in the sitemap are full URLs using https:// and need to match
+# the protocol of the sitemap.
+# Sitemap: https://[DOMAIN]/sitemap.xml

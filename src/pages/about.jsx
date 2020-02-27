@@ -6,10 +6,10 @@ const Home = () => {
   return (
     <Page>
       <Head>
-        <title>Henry Cruz - ihenvyr.com</title>
+        <title>About Henry Cruz - ihenvyr.com</title>
       </Head>
 
-      <div>Hello Next.js!</div>
+      <div>About</div>
     </Page>
   );
 };
