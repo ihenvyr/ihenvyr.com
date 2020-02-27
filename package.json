@@ -1,0 +1,27 @@
+{
+  "name": "ihenvyr.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 8000",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihenvyr/ihenvyr.com.git"
+  },
+  "keywords": [],
+  "author": "Henry C. Cruz <ihenvyr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ihenvyr/ihenvyr.com/issues"
+  },
+  "homepage": "https://github.com/ihenvyr/ihenvyr.com#readme",
+  "dependencies": {
+    "next": "9.2.2",
+    "react": "16.13.0",
+    "react-dom": "16.13.0"
+  }
+}
