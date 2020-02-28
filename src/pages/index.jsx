@@ -34,7 +34,7 @@ const Home = () => {
               <H2><strong className="block pb-2">DEV STACK</strong></H2>
             </div>
 
-            <div className="flex text-center flex-col md:flex-row md:justify-evenly">
+            <div className="flex text-center flex-col md:text-left md:flex-row md:justify-evenly">
               <ul className="text-xl mt-4">
                 <li>Next.js</li>
                 <li className="mt-3">React.js</li>

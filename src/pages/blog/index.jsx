@@ -30,7 +30,7 @@ const Blog = () => {
       <DiagonalBox colorA={"#FFFFFF"} colorB={"#FFFFFF"}>
         <Container>
           <div className="text-gray-800 max-w-3xl mx-auto">
-            <div className="flex text-center flex-col md:flex-row md:justify-evenly">
+            <div className="flex text-center flex-col md:text-left md:flex-row md:justify-evenly">
               <ul className="text-xl">
                 <li>
                   <Link href="/blog/hello-world"><a className="hover:underline">Hello World</a></Link>
