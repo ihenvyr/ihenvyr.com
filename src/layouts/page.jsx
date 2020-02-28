@@ -7,7 +7,7 @@ const Page = (props) => {
   return (
     <>
       <Header/>
-      <main className="min-h-screen" role="main">{props.children}</main>
+      <main role="main">{props.children}</main>
       <Footer/>
     </>
   );

@@ -31,7 +31,7 @@ const Home = () => {
         <Container>
           <div className="text-gray-800 max-w-3xl mx-auto">
             <div className="text-center">
-              <H1>Skills</H1>
+              <H1>Dev Stack</H1>
             </div>
 
             <div className="flex justify-evenly">
@@ -52,24 +52,6 @@ const Home = () => {
           </div>
         </Container>
       </DiagonalBox>
-
-      <DiagonalBox colorA={"#E0E0E0"} colorB={"#E0E0E0"}>
-        <Container>
-          <div className="text-gray-800 max-w-3xl mx-auto">
-            <div className="text-center">
-              <H1>Quick Links</H1>
-            </div>
-
-            <ul className="text-center mt-4">
-              <li className="inline-block px-4"><a target="_blank" href="https://github.com/ihenvyr">Github</a></li>
-              <li className="inline-block px-4"><a target="_blank" href="https://twitter.com/ihenvyr">Twitter</a></li>
-              <li className="inline-block px-4"><a target="_blank" href="https://www.linkedin.com/in/ihenvyr">LinkedIn</a></li>
-            </ul>
-          </div>
-        </Container>
-      </DiagonalBox>
-
-      <DiagonalBox colorA={"#212121"} colorB={"#212121"}/>
     </Page>
   );
 };
