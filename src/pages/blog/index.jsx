@@ -20,7 +20,7 @@ const Blog = () => {
             <H1>Blog</H1>
             <H2>
               <span className="text-gray-600">
-                Random posts
+                Random dev posts
               </span>
             </H2>
           </div>
@@ -30,42 +30,32 @@ const Blog = () => {
       <DiagonalBox colorA={"#FFFFFF"} colorB={"#FFFFFF"}>
         <Container>
           <div className="text-gray-800 max-w-3xl mx-auto">
-            <div className="flex justify-evenly">
-              <ul className="text-2xl mt-4">
-                <li><Link href="/blog/hello-world"><a className="hover:underline">Hello World</a></Link></li>
-                <li>React.js</li>
-                <li>Express.js</li>
-                <li>Node.js</li>
+            <div className="flex justify-evenly flex-col md:flex-row">
+              <ul className="text-xl">
+                <li>
+                  <Link href="/blog/hello-world"><a className="hover:underline">Hello World</a></Link>
+                  <div className="text-base text-gray-500">2020-02-28</div>
+                </li>
+                <li className="mt-4">
+                  <Link href="/blog/hello-world"><a className="hover:underline">Hello World</a></Link>
+                  <div className="text-base text-gray-500">2020-02-28</div>
+                </li>
               </ul>
 
-              <ul className="text-2xl mt-4">
-                <li>Javascript</li>
-                <li>Ruby on Rails</li>
-                <li>CSS</li>
-                <li>HTML</li>
+              <ul className="text-xl mt-4 md:mt-0">
+                <li>
+                  <Link href="/blog/hello-world"><a className="hover:underline">Hello World</a></Link>
+                  <div className="text-base text-gray-500">2020-02-28</div>
+                </li>
+                <li className="mt-4">
+                  <Link href="/blog/hello-world"><a className="hover:underline">Hello World</a></Link>
+                  <div className="text-base text-gray-500">2020-02-28</div>
+                </li>
               </ul>
             </div>
           </div>
         </Container>
       </DiagonalBox>
-
-      <DiagonalBox colorA={"#E0E0E0"} colorB={"#E0E0E0"}>
-        <Container>
-          <div className="text-gray-800 max-w-3xl mx-auto">
-            <div className="text-center">
-              <H1>Quick Links</H1>
-            </div>
-
-            <ul className="text-center mt-4">
-              <li className="inline-block px-4"><a target="_blank" href="https://github.com/ihenvyr">Github</a></li>
-              <li className="inline-block px-4"><a target="_blank" href="https://twitter.com/ihenvyr">Twitter</a></li>
-              <li className="inline-block px-4"><a target="_blank" href="https://www.linkedin.com/in/ihenvyr">LinkedIn</a></li>
-            </ul>
-          </div>
-        </Container>
-      </DiagonalBox>
-
-      <DiagonalBox colorA={"#212121"} colorB={"#212121"}/>
     </Page>
   );
 };
