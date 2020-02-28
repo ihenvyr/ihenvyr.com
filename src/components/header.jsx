@@ -4,7 +4,7 @@ import Container from "./container";
 
 const Header = () => {
   return (
-    <header className="bg-gray-400 overflow-x-hidden" role="banner">
+    <header className="bg-gray-100 overflow-x-hidden" role="banner">
       <Container>
         <div className="flex items-center">
           <div className="mr-auto">
@@ -22,7 +22,7 @@ const Header = () => {
           </label>
 
           <nav className="flex flex-col absolute w-56 h-screen bg-white top-0 right-0 transition-transform duration-200 ease-in-out transform translate-x-64 sm:relative sm:bg-transparent sm:w-auto sm:h-auto sm:translate-x-0" role="navigation">
-            <div className="bg-gray-400 flex sm:absolute sm:opacity-0 sm:pointer-events-none">
+            <div className="bg-gray-200 flex sm:absolute sm:opacity-0 sm:pointer-events-none">
               <label className="cursor-pointer m-4" htmlFor="MOBILE_MENU">
                 <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" height="24" width="24">
                   <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
@@ -32,17 +32,17 @@ const Header = () => {
             <ul className="flex flex-col pb-4 sm:flex-row sm:pb-0">
               <li>
                 <Link href="/about">
-                  <a className="block hover:bg-gray-200 pt-4 pb-4 pl-4 pr-4 sm:hover:underline sm:hover:bg-transparent">About</a>
+                  <a className="block hover:bg-gray-100 pt-4 pb-4 pl-4 pr-4 sm:hover:underline sm:hover:bg-transparent">About</a>
                 </Link>
               </li>
               <li>
                 <Link href="/projects">
-                  <a className="block hover:bg-gray-200 pt-4 pb-4 pl-4 pr-4 sm:hover:underline sm:hover:bg-transparent">Projects</a>
+                  <a className="block hover:bg-gray-100 pt-4 pb-4 pl-4 pr-4 sm:hover:underline sm:hover:bg-transparent">Projects</a>
                 </Link>
               </li>
               <li>
                 <Link href="/blog">
-                  <a className="block hover:bg-gray-200 pt-4 pb-4 pl-4 sm:hover:underline sm:hover:bg-transparent">Blog</a>
+                  <a className="block hover:bg-gray-100 pt-4 pb-4 pl-4 sm:hover:underline sm:hover:bg-transparent">Blog</a>
                 </Link>
               </li>
             </ul>
