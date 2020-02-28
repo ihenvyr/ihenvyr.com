@@ -31,22 +31,22 @@ const Home = () => {
         <Container>
           <div className="text-gray-800 max-w-3xl mx-auto">
             <div className="text-center">
-              <H1>Dev Stack</H1>
+              <H2><strong className="block pb-4">DEV STACK</strong></H2>
             </div>
 
-            <div className="flex justify-evenly">
-              <ul className="text-2xl mt-4">
+            <div className="flex text-center flex-col md:flex-row md:justify-evenly">
+              <ul className="text-xl mt-4">
                 <li>Next.js</li>
-                <li>React.js</li>
-                <li>Express.js</li>
-                <li>Node.js</li>
+                <li className="mt-3">React.js</li>
+                <li className="mt-3">Express.js</li>
+                <li className="mt-3">Node.js</li>
               </ul>
 
-              <ul className="text-2xl mt-4">
+              <ul className="text-xl mt-4">
                 <li>Javascript</li>
-                <li>Ruby on Rails</li>
-                <li>CSS</li>
-                <li>HTML</li>
+                <li className="mt-3">Ruby on Rails</li>
+                <li className="mt-3">CSS</li>
+                <li className="mt-3">HTML</li>
               </ul>
             </div>
           </div>
