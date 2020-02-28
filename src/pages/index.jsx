@@ -31,7 +31,7 @@ const Home = () => {
         <Container>
           <div className="text-gray-800 max-w-3xl mx-auto">
             <div className="text-center">
-              <H2><strong className="block pb-4">DEV STACK</strong></H2>
+              <H2><strong className="block pb-2">DEV STACK</strong></H2>
             </div>
 
             <div className="flex text-center flex-col md:flex-row md:justify-evenly">
