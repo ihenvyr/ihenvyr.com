@@ -7,7 +7,7 @@ const Post = (props) => {
   return (
     <>
       <Header/>
-      <main role="main">{props.children}</main>
+      <main className="min-h-screen" role="main">{props.children}</main>
       <Footer/>
     </>
   );

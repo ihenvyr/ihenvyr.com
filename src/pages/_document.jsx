@@ -9,9 +9,9 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html className="overflow-x-hidden">
         <Head/>
-        <body className="overflow-x-hidden">
+        <body className="bg-gray-900">
         <Main />
         <NextScript/>
         </body>
