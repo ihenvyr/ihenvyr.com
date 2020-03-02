@@ -8,29 +8,19 @@ const DiagonalBox = (props) => {
     return Math.abs(Math.tan(angleRad) / 2);
   };
 
-  const computeSkewPadding = () => {
-
-  };
+  const magicNumber = computeMagicNumber();
+  const skewPadding = `calc(100vw * ${magicNumber})`;
 
   return (
     <section className={props.className}>
       <div>{props.children}</div>
-      {/* language=SCSS */}
-      <style jsx global>{`
-        :root {
-          --width: 100vw;
-          --angle: ${props.angle}deg;
-          --magic-number: ${computeMagicNumber()};
-          --skew-padding: calc(var(--width) * var(--magic-number));
-        }
-      `}</style>
 
       {/* language=SCSS */}
       <style jsx>{`
         /* CONTAINER */
         section {
           position: relative;
-          padding: var(--skew-padding) 0;
+          padding: ${skewPadding} 0;
           margin-top: -1px;
         }
         
@@ -41,7 +31,7 @@ const DiagonalBox = (props) => {
           top: 0;
           right: 0;
           bottom: 0;
-          transform: skewy(var(--angle));;
+          transform: skewy(${props.angle}deg);;
           transform-origin: 50% 0;
           outline: 1px solid transparent;
           backface-visibility: hidden;
@@ -50,7 +40,7 @@ const DiagonalBox = (props) => {
         
         /* CONTENT */
         div {
-          max-width: var(--width);
+          max-width: 100vw;
           margin: 0 auto;
           padding: 1.5em 0;
           position: relative;
