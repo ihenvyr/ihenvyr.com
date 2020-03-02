@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import Link from "next/link";
+import React, { useEffect } from "react";
+import ActiveLink from "./active-link";
 import Container from "./container";
 
 const Header = () => {
@@ -22,9 +22,9 @@ const Header = () => {
       <Container>
         <div className="flex items-center">
           <div className="mr-auto">
-            <Link href="/">
+            <ActiveLink href="/" activeClassName="text-gray-300">
               <a className="outline-none inline-block pt-6 pb-6 hover:text-gray-200">@ihenvyr</a>
-            </Link>
+            </ActiveLink>
           </div>
 
           <input className="absolute opacity-0 pointer-events-none" type="checkbox" id="MOBILE_MENU" onChange={handleMobileMenuChange}/>
@@ -45,14 +45,14 @@ const Header = () => {
             </div>
             <ul className="flex flex-col pb-4 sm:flex-row sm:pb-0">
               <li>
-                <Link href="/projects">
+                <ActiveLink href="/projects" activeClassName="text-gray-300">
                   <a className="outline-none block hover:bg-gray-100 pt-4 pb-4 pl-4 pr-4 sm:hover:text-gray-200 sm:hover:bg-transparent">Projects</a>
-                </Link>
+                </ActiveLink>
               </li>
               <li>
-                <Link href="/blog">
+                <ActiveLink href="/blog" activeClassName="text-gray-300">
                   <a className="outline-none block hover:bg-gray-100 pt-4 pb-4 pl-4 sm:hover:text-gray-200 sm:hover:bg-transparent">Blog</a>
-                </Link>
+                </ActiveLink>
               </li>
             </ul>
           </nav>
