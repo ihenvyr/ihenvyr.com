@@ -45,12 +45,12 @@ const Header = () => {
             </div>
             <ul className="flex flex-col pb-4 sm:flex-row sm:pb-0">
               <li>
-                <ActiveLink href="/projects" activeClassName="text-gray-300">
+                <ActiveLink href="/projects" activeClassName="text-gray-800 sm:text-gray-300">
                   <a className="outline-none block hover:bg-gray-100 pt-4 pb-4 pl-4 pr-4 sm:hover:text-gray-200 sm:hover:bg-transparent">Projects</a>
                 </ActiveLink>
               </li>
               <li>
-                <ActiveLink href="/blog" activeClassName="text-gray-300">
+                <ActiveLink href="/blog" activeClassName="text-gray-800 sm:text-gray-300">
                   <a className="outline-none block hover:bg-gray-100 pt-4 pb-4 pl-4 sm:hover:text-gray-200 sm:hover:bg-transparent">Blog</a>
                 </ActiveLink>
               </li>
