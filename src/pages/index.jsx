@@ -36,17 +36,33 @@ const Home = () => {
 
             <div className="flex text-center flex-col md:text-left md:flex-row md:justify-evenly">
               <ul className="text-xl mt-4">
-                <li>Next.js</li>
-                <li className="mt-3">React.js</li>
-                <li className="mt-3">Express.js</li>
-                <li className="mt-3">Node.js</li>
+                <li>
+                  <a className="hover:underline" target="_blank" rel="noopener" href="https://nextjs.org/">Next.js</a>
+                </li>
+                <li className="mt-3">
+                  <a className="hover:underline" target="_blank" rel="noopener" href="https://reactjs.org/">React.js</a>
+                </li>
+                <li className="mt-3">
+                  <a className="hover:underline" target="_blank" rel="noopener" href="https://expressjs.com/">Express.js</a>
+                </li>
+                <li className="mt-3">
+                  <a className="hover:underline" target="_blank" rel="noopener" href="https://nodejs.org/">Node.js</a>
+                </li>
               </ul>
 
               <ul className="text-xl mt-4">
-                <li>Javascript</li>
-                <li className="mt-3">Ruby on Rails</li>
-                <li className="mt-3">CSS</li>
-                <li className="mt-3">HTML</li>
+                <li>
+                  <a className="hover:underline" target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/JavaScript">Javascript</a>
+                </li>
+                <li className="mt-3">
+                  <a className="hover:underline" target="_blank" rel="noopener" href="https://rubyonrails.org/">Ruby on Rails</a>
+                </li>
+                <li className="mt-3">
+                  <a className="hover:underline" target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a>
+                </li>
+                <li className="mt-3">
+                  <a className="hover:underline" target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/HTML">HTML</a>
+                </li>
               </ul>
             </div>
           </div>
