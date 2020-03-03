@@ -57,7 +57,7 @@ DiagonalBox.propTypes = {
   className: PropTypes.string,
 };
 DiagonalBox.defaultProps = {
-  angle: -6,
+  angle: -5,
   colorA: "#BCDBCE",
   colorB: "#BCDBCE",
   className: undefined,
