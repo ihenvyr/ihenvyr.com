@@ -36,7 +36,7 @@ const Projects = () => {
                   <div className="text-base text-gray-500">Compress and resize JPG or PNG images</div>
                 </li>
                 <li className="mt-4">
-                  <a className="hover:underline" target="_blank" href="https://github.com/ihenvyr/react-styled-grid">react-styled-grid</a>
+                  <a className="hover:underline" target="_blank" href="https://www.npmjs.com/package/react-styled-grid">react-styled-grid</a>
                   <div className="text-base text-gray-500">Open-source responsive fluid grid system</div>
                 </li>
               </ul>
