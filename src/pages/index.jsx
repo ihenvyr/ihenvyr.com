@@ -48,6 +48,9 @@ const Home = () => {
                 <li className="mt-3">
                   <a className="hover:underline" target="_blank" rel="noopener" href="https://nodejs.org/">Node.js</a>
                 </li>
+                <li className="mt-3">
+                  <a className="hover:underline" target="_blank" rel="noopener" href="https://gulpjs.com/">Gulp.js</a>
+                </li>
               </ul>
 
               <ul className="text-xl mt-4">
@@ -62,6 +65,9 @@ const Home = () => {
                 </li>
                 <li className="mt-3">
                   <a className="hover:underline" target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/HTML">HTML</a>
+                </li>
+                <li className="mt-3">
+                  <a className="hover:underline" target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Git">Git</a>
                 </li>
               </ul>
             </div>
