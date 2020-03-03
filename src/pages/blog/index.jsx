@@ -11,13 +11,13 @@ const Blog = () => {
   return (
     <Page>
       <Head>
-        <title>Blog - Henry Cruz</title>
+        <title>Blog 📝 - Henry Cruz</title>
       </Head>
 
       <DiagonalBox colorA={"#212121"} colorB={"#212121"}>
         <Container>
           <div className="text-gray-300 text-center max-w-3xl mx-auto">
-            <H1>Blog</H1>
+            <H1>Blog 📝</H1>
             <H2>
               <span className="text-gray-600">
                 Random dev posts
