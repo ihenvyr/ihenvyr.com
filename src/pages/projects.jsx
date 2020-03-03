@@ -37,7 +37,7 @@ const Projects = () => {
                 </li>
                 <li className="mt-4">
                   <a className="hover:underline" target="_blank" href="https://github.com/ihenvyr/react-styled-grid">react-styled-grid</a>
-                  <div className="text-base text-gray-500">Responsive fluid grid system</div>
+                  <div className="text-base text-gray-500">Open-source responsive fluid grid system</div>
                 </li>
               </ul>
 
